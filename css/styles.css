@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(180deg, #F28123 23.8%, #F7F052 92%);
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #E33B08;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: none
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
